@@ -3,70 +3,72 @@
 <head>
 	<meta charset="utf-8">
 	<title>Google Design</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-	<nav>
-		<img src="img/logo-tall.png" id="logoDesign">
-		<img src="img/search-icon.png" ><br>
-		<a href="#">LIBRARY</a>
-		<a href="#">NEWS</a>
-		<a href="#">RESOURCES</a>
-		<a href="#">JOBS</a>
-		<a href="#">ABOUT</a>
+	<nav id="menu">
+		<img src="img/logo-tall.png">
+		<img src="img/search-icon.png" id="busqueda"><br>
+		<a href="#" class="menu">LIBRARY</a>
+		<a href="#" class="menu">NEWS</a>
+		<a href="#" class="menu">RESOURCES</a>
+		<a href="#" class="menu">JOBS</a>
+		<a href="#" class="menu">ABOUT</a>
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12 description">
 				<img src="img/podcast.png" id="podcast">
-				<h2>Method Podcast, Episode 1</h2><br>
-				<h4>Prototyping, tools, and designers who code. A conversation with Jay Wong of Proyect Fi.</h4><br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h1 id="titulo1">Method Podcast, Episode 1</h1><br>
+				<h3 class="subtitulo">Prototyping, tools, and designers who code. A conversation with Jay Wong of Proyect Fi.</h3><br>
+				<p class="txtMd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur.</p><br>
 				<p>Profile</p><br>
-				<hr>
 			</div>
 		</div>
+				<hr>
 	</div>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-6 description" id="newDesignDescription">
-				<h4>Newsfeed</h4>				
-				<h6>28/06/2017</h6>
-				<h3>A new and Improved Google Design</h3>
+			<div class="col-6 description">
+				<h3 class="subtitulo">Newsfeed</h3>			
+				<h6 class="fecha">28/06/2017</h6>
+				<h3 class="subtitulo">New and Improved Google Design</h3>
 				<img src="img/googleDesign.jpg" class="imgDescription">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="txtMd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur.</p>
 			</div>
 			<div class="col-5 description">
-				<h6>28/06/2017</h6>
-				<h3>Join the Material Gallery Early Adopter Program</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h6 class="fecha">28/06/2017</h6>
+				<h3 class="subtitulo">Join the Material Gallery Early Adopter Program</h3>
+				<p class="txtMd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. </p>
-				<h6>28/06/2017</h6>
-				<h3>Google Design Medium Round-Up</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h6 class="fecha">28/06/2017</h6>
+				<h3 class="subtitulo">Google Design Medium Round-Up</h3>
+				<p class="txtMd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. </p>
-				<h6>28/06/2017</h6>
-				<h3>Material Components for Android, iOS, and the Web</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h6 class="fecha">28/06/2017</h6>
+				<h3 class="subtitulo">Material Components for Android, iOS, and the Web</h3>
+				<p class="txtMd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. </p><br>
-				<div>
+				<div id="sombreado">
 					<p><strong>Want to stay up.to-date with Google Design?</strong></p>
-					<a href="#">Sign up for our Newsletter</a>
+					<a href="#" id="azul">Sign up for our Newsletter</a>
 					<img src="img/gdLogo.png">
 				</div>
 			</div>
@@ -77,8 +79,8 @@
 		<div class="row">
 			<div class="col-6 description">
 				<img src="img/culture.jpg" class="imgDescription">
-				<h3>Connectivity, Culture, and Credit</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h3 class="subtitulo">Connectivity, Culture, and Credit</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
@@ -86,35 +88,33 @@
 			</div>
 			<div class="col-5 description">
 				<img src="img/migration.png" class="imgDescription">
-				<h3>I/O 2017 Design Coverage</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<img src="img/icon-redirection.png">
-				<a href="#">medium.com</a>
+				<h3 class="subtitulo">I/O 2017 Design Coverage</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<a href="#" class="medium"><img src="img/icon-redirection.png">medium.com</a>
 			</div>
 			<div class="col-6 description">
 				<img src="img/building.jpg" class="imgDescription">
-				<h3>Building Better Design Culture</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Building Better Design Culture</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			</div>
 			<div class="col-6 description">
 				<img src="img/agi.jpg" class="imgDescription">
-				<h3>Seoul: Printed Matter, Politics, and Performance</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<img src="img/icon-redirection.png">
-				<a href="#">medium.com</a>
+				<h3 class="subtitulo">Seoul: Printed Matter, Politics, and Performance</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<a href="#" class="medium"><img src="img/icon-redirection.png">medium.com</a>
 				<hr>
 			</div>
 			<div class="col-6 description">
 				<img src="img/daydream.jpg" class="imgDescription">
-				<h3>Speaking Volumes</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Speaking Volumes</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Case Study</p>
 			</div>
 			<div class="col-6 description">
-				<h3>We used the guidelines as an inspiration to go further, and spent a lot of time considering what they meant and how to put them into practice</h3>
-				<img src="img/asana3.jpg" id="miniAsana">
-				<p>Lorem ipsum dolor sit amet<br>consectetur adipisicing elit.</p>
+				<h3 class="topTxt subtitulo">We used the guidelines as an inspiration to go further, and spent a lot of time considering what they meant and how to put them into practice</h3>
+				<a href="#" class="txtNrml topTxt"><img src="img/asana3.jpg" class="imgXs">
+				Lorem ipsum dolor sit amet<br>consectetur adipisicing elit.</a>
 			</div>
 		</div>
 		<hr>
@@ -122,20 +122,20 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-4 description">
-				<h3>Brand Recognition</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h3 class="middleTxt subtitulo">Brand Recognition</h3>
+				<p class="txtNrml middleTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 			<div class="col-4 description">
 				<img src="img/daydream.jpg" class="collection">
-				<h3>Speaking Volumes</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Speaking Volumes</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Case Study</p>
 			</div>
 			<div class="col-4 description">
 				<img src="img/expressing-brand.jpg" class="collection">
-				<h3>Expressing Brand in Material</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Expressing Brand in Material</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			</div>
 		</div>
@@ -145,38 +145,38 @@
 		<div class="row">
 			<div class="col-6 description">
 				<img src="img/sticky.jpg" class="imgDescription">
-				<h3>Sticky Conversations</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Sticky Conversations</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Case Study</p>
 			</div>
 			<div class="col-6 description">
 				<img src="img/digital-natives.jpg" class="imgDescription">
-				<h3>No Such Things as Offline</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">No Such Things as Offline</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			</div>
 			<div class="col-6 description">
 				<img src="img/guide-span.jpg" class="imgDescription">
-				<h3>Guide to SPAN Tokyo</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Guide to SPAN Tokyo</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Guide</p>
 				<hr>
 			</div>
 			<div class="col-6 description">
 				<img src="img/airbnb.jpg" class="imgDescription">
-				<h3>Airbnb: Communicating Clarity and Charm</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Airbnb: Communicating Clarity and Charm</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			</div>
 			<div class="col-6 description">
-				<h3>Guide to SPAN Tokyo</h3>
-				<img src="img/conor.png" id="miniConor">
-				<p>Conor O'Sullivan<br>Sound and Vision</p>
+				<h3 class="topTxt subtitulo">Guide to SPAN Tokyo</h3>
+				<p class="topTxt"><img src="img/conor.png" class="imgXs">
+				Conor O'Sullivan<br>Sound and Vision</p>
 			</div>
 			<div class="col-6 description">
 				<img src="img/vol2.jpg" class="imgDescription">
-				<h3>Volume Two</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Volume Two</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			</div>
 		</div>
@@ -185,21 +185,21 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-4 description">
-				<h3>Brand Recognition</h3>
+				<h3 class="subtitulo">Brand Recognition</h3>
 				<img src="img/library.jpg" class="collection">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 			<div class="col-4 description">
-				<h3>Brand Recognition</h3>
+				<h3 class="subtitulo">Brand Recognition</h3>
 				<img src="img/gallery.png" class="collection">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 			<div class="col-4 description">
-				<h3>Brand Recognition</h3>
+				<h3 class="subtitulo">Brand Recognition</h3>
 				<img src="img/podcast.png" class="collection">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 		</div>
@@ -209,28 +209,28 @@
 		<div class="row">
 			<div class="col-6 description">
 				<img src="img/span-la.jpg" class="imgDescription">
-				<h3>Span 2016: Los Angeles</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<img src="img/icon-redirection.png">
-				<a href="#">design.google</a>
+				<h3 class="subtitulo">Span 2016: Los Angeles</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<a href="#"><img src="img/icon-redirection.png">
+				design.google</a>
 			</div>
 			<div class="col-6 description">
 				<img src="img/never-done.jpg" class="imgDescription">
-				<h3>Design is Never Done</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Design is Never Done</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			<hr>
 			</div>
 			<div class="col-6 description">
 				<img src="img/pantone.png" class="imgDescription">
-				<h3>Material Design Awards 2016</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<h3 class="subtitulo">Material Design Awards 2016</h3>
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p>Editorial</p>
 			</div>
 			<div class="col-6 description">
-				<h3>In celebration of the SPAN LA event, we put together a handy cheat sheet of three things you might like to know about each speaker as well as video links to all the talks.</h3>
-				<img src="img/gdLogo.png" id="miniGd">
-				<p>google Design<br>Guide to SPAN LA</p>
+				<h3 class="topTxt subtitulo">In celebration of the SPAN LA event, we put together a handy cheat sheet of three things you might like to know about each speaker as well as video links to all the talks.</h3>
+				<p class="topTxt"><img src="img/gdLogo.png" class="imgXs">
+				google Design<br>Guide to SPAN LA</p>
 			</div>
 		</div>
 		<hr>
@@ -239,7 +239,7 @@
 		<div class="row">
 			<div class="col-4 description">
 				<h5>Google Design</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="txtNrml">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
