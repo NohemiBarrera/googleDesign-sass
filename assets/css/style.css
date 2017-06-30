@@ -2,7 +2,12 @@
 /*Gris Oscuro T├¡tulos : #424242
 Gris Claro fecha: #5f6368
 Gris Texto : #414549
-Azul : #4285f4*/
+Azul : #4285f4
+h3, h1: Product Sans;
+p: Roboto;
+h1: 2.5rem;
+h3: 1.25rem;
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -47,6 +52,29 @@ Azul : #4285f4*/
 .col-12 {
   width: 100%; }
 
+nav {
+  text-align: center;
+  padding: 50px; }
+
+a {
+  text-decoration: none; }
+
+#busqueda {
+  position: relative;
+  left: 400px;
+  top: -20px; }
+
+.txtMd {
+  font-size: 1.2rem; }
+
+.topTxt {
+  position: relative;
+  bottom: 340px; }
+
+.middleTxt {
+  position: relative;
+  bottom: 230px; }
+
 #podcast {
   width: 90%;
   height: 500px;
@@ -54,26 +82,24 @@ Azul : #4285f4*/
 
 .imgDescription {
   width: 100%;
-  height: 450px; }
-
-#newDesignDescription {
-  display: inline-grid; }
+  height: 350px; }
 
 .description {
   display: inline-grid;
   font-size: 16px;
-  padding: 10px; }
+  padding: 30px; }
 
-#redirection, #miniAsana, #miniConor, #miniGd {
-  width: 3%;
-  height: 20px; }
+.imgXs {
+  width: 4%;
+  height: 25px; }
 
 .collection {
   width: 100%;
   height: 250px; }
 
 hr {
-  color: blue; }
+  color: blue;
+  border: 2px solid blue; }
 
 .row {
   font-size: 0; }
